@@ -22,7 +22,7 @@ function AddTodo() {
   }
   
   return (
-    <div className="min-w-[700px] mx-auto  mb-5 ">
+    <div className="max-w-sm mx-auto  mb-5 ">
       <form className="flex items-center  border-b-2 border-teal-500 py-2" onSubmit={(e)=>addFun(e)}>
         <input
          value={todo}
