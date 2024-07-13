@@ -1,4 +1,4 @@
-readme_content = """
+
 # React Studio
 
 Welcome to React Studio! Let's embark on a journey to master the React frontend library.
@@ -67,4 +67,3 @@ Welcome to React Studio! Let's embark on a journey to master the React frontend 
 ---
 
 By following this guide, you'll be well on your way to mastering React and building powerful, efficient front-end applications. Happy coding!
-"""
