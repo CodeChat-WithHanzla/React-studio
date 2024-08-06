@@ -4,10 +4,9 @@ import services from './lib/auth'
 import {login,logout} from './store/authSlice'
 import {Header,Footer} from './components/index'
 import {Outlet} from 'react-router-dom'
-import { useSelector } from 'react-redux'
+
 function App() {
   console.log('hello word')
-  const auth = useSelector(state=>state.auth)
   const [loading,setLoading] = useState(true)
   const dispatch = useDispatch()
   useEffect(()=>{
