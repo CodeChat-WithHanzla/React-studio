@@ -25,6 +25,7 @@ function Login() {
         }
       }
     } catch (error) {
+      reset();
       setError(error.message);
     }
   };
