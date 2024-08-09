@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    @apply text-yellow-500  font-bold; 
+  }
+.inactive {
+    @apply  text-black font-bold ; 
+  }  
